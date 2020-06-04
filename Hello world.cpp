@@ -1,8 +1,9 @@
 #include <iostream>
 #include <string>
 
+using namespace std
 int main(int argc, char** argv){
- std::string name; //user name
- std::cin >> name; //input user name
- std::cout << "Hello world from " << name << std::endl;
+ string name; //user name
+ cin >> name; //input user name
+ cout << "Hello world from " << name << endl;
 }
